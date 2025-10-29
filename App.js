@@ -2,6 +2,8 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { StatusBar } from "react-native";
+
+// Correct relative imports
 import HomeScreen from "./screens/HomeScreen";
 import StudioScreen from "./screens/StudioScreen";
 import LibraryScreen from "./screens/LibraryScreen";
